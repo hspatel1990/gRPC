@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pb;
+
+import "user.proto";
+
+option go_package = "github.com/techschool/simplebank/pb";
+
+message UpdateUserRequest {
+    int64 id = 1;
+    optional string username = 2;
+    optional int64 provid = 3;
+}
+
+message UpdateUserResponse {
+    User user = 1;
+}
