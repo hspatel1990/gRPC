@@ -7,16 +7,16 @@ import "rpc_create_user.proto";
 import "rpc_update_user.proto";
 import "protoc-gen-openapiv2/options/annotations.proto";
 
-option go_package = "github.com/techschool/simplebank/pb";
+option go_package = "github.com/hspatel1990/gRPC/pb";
 
 option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_swagger) = {
     info: {
-        title: "Simple Bank API";
+        title: "gRPC";
         version: "1.2";
         contact: {
-            name: "Tech School";
-            url: "https://github.com/techschool";
-            email: "techschool.guru@gmail.com";
+            name: "H P";
+            url: "https://github.com/hspatel1990";
+            email: "hspatel1990@gmail.com";
         };
     };
 };

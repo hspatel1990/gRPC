@@ -1,4 +1,4 @@
-module github.com/techschool/simplebank
+module github.com/hspatel1990/gRPC
 
 go 1.19
 

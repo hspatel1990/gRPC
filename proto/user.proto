@@ -4,7 +4,7 @@ package pb;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/techschool/simplebank/pb";
+option go_package = "github.com/hspatel1990/gRPC/pb";
 
 message User {
     int64 id = 1;

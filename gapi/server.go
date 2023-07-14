@@ -1,9 +1,9 @@
 package gapi
 
 import (
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/pb"
-	"github.com/techschool/simplebank/util"
+	db "github.com/hspatel1990/gRPC/db/sqlc"
+	"github.com/hspatel1990/gRPC/pb"
+	"github.com/hspatel1990/gRPC/util"
 )
 
 // Server serves gRPC requests for our banking service.

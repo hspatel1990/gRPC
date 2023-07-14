@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
+	db "github.com/hspatel1990/gRPC/db/sqlc"
+	"github.com/hspatel1990/gRPC/pb"
 	"github.com/jackc/pgx/v5/pgtype"
-	db "github.com/techschool/simplebank/db/sqlc"
-	"github.com/techschool/simplebank/pb"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )
